@@ -1,0 +1,28 @@
+.header{
+
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    margin-bottom: 50px;
+}
+
+.picture{
+    width: 15%;
+}
+.nav-bar ul {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    padding: 5px;
+}
+.nav-bar li{
+
+    padding: 5px;
+    border: solid black 1px;
+    box-shadow: 1px 1px black;
+    height: 50%;
+    cursor: pointer;
+}
+.nav-bar li:active{
+    scale: 0.9;
+}

@@ -1,0 +1,53 @@
+.presentation{
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.header-presentation{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+}
+.header-presentation img{
+    border: solid 1px black;
+    box-shadow: 1px 1px black;
+    width: 20%;
+}
+.header-presentation-text{
+    display: flex;
+    align-items: center;
+    gap : 50px;
+}
+.header-presentation-text h1{
+     font-size: 40px;
+ color: #023678;
+ text-align: center;
+ font-weight: 700;
+}
+.short-presentation{
+    font-size: 22px;
+}
+.aboutMe{
+    font-size : 22px;
+}
+.skills{
+      text-align: center;
+}
+.skill-list{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.skill-card{
+    border: black 2px;
+    height: 10%;
+}
+.skill-card img{
+    height: 150px;
+    width: 150px;
+}

@@ -1,0 +1,30 @@
+.project{
+
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.projectTitle{
+ font-size: 40px;
+ color: #023678;
+ text-align: center;
+ font-weight: 700;
+}
+.slideshow-title{
+    text-align: center;
+}
+
+.github{
+
+    padding: 5px;
+    border: solid black 1px;
+    box-shadow: 1px 1px black;
+    height: 50%;
+    width: 8%;
+    text-align: center;
+    cursor: pointer;
+    align-self: center;
+}
+.github:active{
+    scale: 0.9;
+}

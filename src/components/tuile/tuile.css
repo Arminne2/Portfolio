@@ -1,0 +1,63 @@
+
+.container{
+  margin-top:10%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    /*position: relative;*/
+    justify-content: space-evenly;
+    gap: 100px;
+    height: 100%;
+}
+.project-card-link{
+ 
+    width: 33%;
+    height: 100%;
+
+}
+.project-tuile{
+  text-align: center;
+  border: solid lightgrey 2px;
+  background-color: white;
+  overflow: hidden;
+  margin-left: 10px;
+  max-height: 100px;
+}
+
+.project-tuile:hover{
+  cursor: pointer;
+  animation-name: slideUp;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  z-index : 1;
+}
+.file{
+  margin-top: 30px;
+  display: block;
+    background: #D98C09;
+    width: 33%;
+    height: 100%;
+    max-height: 100px;
+    position: absolute;
+    z-index:2;
+    box-shadow: 5px -2px rgb(217,140,9,0.5);
+    border: solid 1px rgb(136, 91, 14);
+}
+@keyframes slideUp{
+
+to{ transform : translateY(-40px)}
+}
+
+
+@media (width < 1024px) {
+  .container{
+    flex-direction: column;
+    margin-top: 100px;
+  }
+  .file{
+    width: 80%;
+  }
+  .project-card-link{
+    width: 80%;
+  }
+}

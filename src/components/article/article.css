@@ -1,0 +1,26 @@
+.project{
+    padding-top: 20px;
+}
+.project-section-article{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.project-article{
+    padding-left: 10px;
+    display: flex;
+    gap: 25px;
+    flex-direction:row;
+}
+.project-article-title{
+    margin-left: 25px;
+    
+}
+.project-article-text{
+    padding: 25px;
+    font-size: 22px;
+}
+.project-article-img{
+    display: block;
+    width: 40%;
+}

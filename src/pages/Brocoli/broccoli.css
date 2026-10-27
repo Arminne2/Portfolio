@@ -1,0 +1,24 @@
+.broccoli{
+ display: flex;
+ gap: 20px;
+}
+.broccoli img{
+    width: 30%;
+}
+.broccoli-section{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    padding: 20px;
+    gap: 20px;
+}
+.broccoli-section h1{
+   color: #023678;
+}
+
+@media (width < 1024px) {
+.broccoli{
+ flex-direction: column;
+}
+
+}
